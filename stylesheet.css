@@ -164,15 +164,18 @@ footer h4 {
 }
 .copy {
   display: flex;
-  justify-content: center;
-  align-items: center;
 }
 .info {
-  display: flex;
+  /*display: flex;
   justify-content: center;
-  background-color: #f00;
+  align-items: center;*/
 }
 .info h3 {
-  display: inline-block;
   font-size: 2vw;
+  text-align: center;
+  text-transform: uppercase;
+}
+.info2 {
+  display: flex;
+  justify-content: space-around;
 }
